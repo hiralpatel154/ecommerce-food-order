@@ -1,0 +1,10 @@
+.card-img-top {
+  width: 20vw;
+  height: 20vw;
+  object-fit: cover;
+}
+.card-desc {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

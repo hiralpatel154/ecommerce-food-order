@@ -1,0 +1,47 @@
+.signup-container {
+  background-image: url("/images/img-signup-bkg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.8;
+  height: 90vh;
+}
+
+.signin-container {
+  background-image: url("/images/img-signin-bkg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.1;
+  height: 100vh;
+}
+
+.home-page {
+  height: 50vh;
+}
+.cart-bg {
+  background-image: url("/images/banner.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.9;
+  background-size: cover;
+}
+
+.banner-image {
+  background-image: url("/images/banner.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 1;
+  height: 80%;
+}
+
+.logo-image {
+  width: 100px;
+  height: 100px;
+  margin: 0;
+}
+.link-center{
+	margin-top: 40px;
+	font-size: larger;
+}
