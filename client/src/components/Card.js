@@ -15,10 +15,10 @@ const Card = ({ product, adminPage = false, homePage = false }) => {
 
   return (
     <div className="col-md-3 my-3 d-flex justify-content-center">
-      <div className="card border-dark" style={{ width: "17rem" }}>
+      <div className="card border-dark card-rel" style={{ width: "17rem",height:"30rem" }}>
         <a href="#!">
           <img
-            className="img-fluid w-100 card-img-top"
+            className="img-fluid card-img-top card-ab"
             src={`/uploads/${product.fileName}`}
             alt="product"
           />
@@ -31,7 +31,7 @@ const Card = ({ product, adminPage = false, homePage = false }) => {
             <span className="text-secondary mr-2">
               {product.productPrice.toLocaleString("en-US", {
                 style: "currency",
-                currency: "USD",
+                currency: "INR",
               })}
             </span>
           </h6>

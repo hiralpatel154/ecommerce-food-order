@@ -1,10 +1,13 @@
 .card-img-top {
-  width: 20vw;
-  height: 20vw;
-  object-fit: cover;
+  height: 200px;
+  /* text-align: center; */
 }
 .card-desc {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+}
+.card-product-name{
+  overflow: hidden;
+  white-space: nowrap;
 }
